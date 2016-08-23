@@ -54,11 +54,11 @@ namespace CasparCG_Client_Example
             }
         }
 
-        public void ConnectToCGServer(string serverIP)
+        public void ConnectToCGServer()
         {
             if (!this.caspar_.IsConnected)
             {
-                this.caspar_.Settings.Hostname = serverIP;
+                this.caspar_.Settings.Hostname = this.IPaddress;
                 this.caspar_.Settings.Port = 5250;
                 this.caspar_.Connect();
             }
