@@ -30,6 +30,11 @@ namespace CasparCG_Client_Example
             ccgc.ConnectToCGServer();
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ccgc.SendString(textBox2.Text.Trim());
+        }
+
         #region CasparCG connection event handling
         public void DisplayConnectionChange(ConnectionEventArgs e)
         {
@@ -76,5 +81,6 @@ namespace CasparCG_Client_Example
             groupBox2.Enabled = false;
         }
         #endregion
+
     }
 }
