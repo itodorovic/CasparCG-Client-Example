@@ -7,7 +7,8 @@ is provided as-is by Sveriges Televison AB.
 
 http://casparcg.com/
 
-
+More info about this framework:
+https://github.com/CasparCG/Framework/tree/master/csharp
 
 ========================================================================================
 SYSTEM REQUIREMENTS
